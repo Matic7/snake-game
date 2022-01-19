@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: dodgerblue;
+}
+
+#containerAll {
+  display: inline-block;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50vh;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+}
+
+#game {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: limegreen;
+  border: 2px solid black;
+}
+
+#cobra {
+  display: inline-block;
+  position: absolute;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+/*EXTRA SMALL DEVICES 600PX AND DOWN*/
+@media only screen and(max-width: 600px) {
+}
+
+/*SMALL DEVICES 600PX AND UP*/
+@media only screen and (min-width: 600px) {
+}
+
+/*MEDIUM DEVICES 768PX AND UP*/
+@media only screen and (min-width: 768px) {
+}
+
+/*LARGE DEVICES 992PX AND UP*/
+@media only screen and (min-width: 992px) {
+}
+
+/*EXTRA LARGE DEVICES 1200PX AND UP */
+@media only screen and (min-width: 1200px) {
+}
